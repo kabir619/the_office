@@ -1,0 +1,44 @@
+nav {
+  background-color: #dedede;
+}
+
+.navbar-brand{
+  padding-bottom: 40px;
+}
+
+body{
+  background-color: #b9d2fa;
+  font-family: 'Sigmar One', cursive;
+}
+
+
+div.gallery {
+  margin-left: 100px;
+  border: 1px solid #f7f7f7;
+  float: left;
+  width: 372px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.shrink img {
+transition: 0.5s ease;
+}
+
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 0.5s ease;
+}
+
+div.gallery img {
+  width: 370px;
+  height: 300px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
